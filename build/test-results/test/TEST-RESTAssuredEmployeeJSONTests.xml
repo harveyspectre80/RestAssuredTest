@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="RESTAssuredEmployeeJSONTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-12-27T11:13:09" hostname="admin" time="1.436">
+  <properties/>
+  <testcase name="givenEmployeeId_OnDelete_ShouldReturnSuccessStatus" classname="RESTAssuredEmployeeJSONTests" time="1.436"/>
+  <system-out><![CDATA[200
+AT END: [
+  {
+    "id": 1,
+    "name": "Pankaj",
+    "salary": "10000"
+  },
+  {
+    "name": "lisa",
+    "salary": "8000",
+    "id": 3
+  },
+  {
+    "name": "Lisa",
+    "salary": "2000",
+    "id": 5
+  },
+  {
+    "name": "Lisa",
+    "salary": "2000",
+    "id": 6
+  },
+  {
+    "name": "Lisa",
+    "salary": "2000",
+    "id": 7
+  }
+]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
